@@ -1,0 +1,55 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+   margin-bottom: 0px;
+   position: relative;
+   padding-top: 20px;
+}
+.container{
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding-right: 20vh ;
+flex-wrap: wrap;
+
+
+
+}
+footer img{
+    width:2rem;
+
+    position: absolute;
+   top: 22px;
+   left: 30px;
+}
+h4{
+    font-weight: 600;
+    font-size: 27px;
+
+    font-family: inter;
+    line-height: 32.68px;
+    letter-spacing: 5%;
+    color: rgba(172, 172, 172, 1);
+}
+.column ul li{
+   font-weight: 600; 
+   font-size:20px ;
+   font-family: inter;
+   line-height:30.26px ;
+   max-width:500px;
+   color: rgba(255, 255, 255, 1);
+   padding: 5px;
+}
+.column ul li a:hover{
+    padding-left: 10px;
+}
+
+@media(max width:529px){
+    footer{
+
+    }
+
+}
+
