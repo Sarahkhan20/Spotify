@@ -46,10 +46,16 @@ h4{
     padding-left: 10px;
 }
 
-@media(max width:529px){
-    footer{
-
+@media(max-width:738px){
+    .column ul li, h4{
+        margin-left: 50px;
+        
     }
-
+    h4{
+        margin-top: 20px;
+    }
+   
+    
+    
 }
 
