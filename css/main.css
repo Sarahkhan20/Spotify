@@ -46,11 +46,14 @@ main button{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 700;
-    padding: 3vh 8vh 3vh 8vh;
+    padding: 2vh 12vh 2vh 12vh;
     letter-spacing: 5%;
     position: relative;
-    margin-left: 23%;
+    margin-left: 15%;
     
+}
+main button:hover{
+    background-color: white;
 }
 .form{
     border: 1px solid black;
@@ -107,8 +110,20 @@ main button{
     .form{
         margin: 20px;
     }
-    main button{
-
-    }
+    
 }
+
+/* for mobile  */
+@media(max-width:448px){
+    main button{
+        margin-left: 5px;
+        position: relative;
+        top: 30px;
+        padding: 2vh 10vh 2vh 10vh;
+    }
+    .form{
+        padding: 30px;
+        
+    }
+    
 

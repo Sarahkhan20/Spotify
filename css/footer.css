@@ -1,11 +1,12 @@
 footer{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
     background-color: black;
-   margin-bottom: 0px;
-   position: relative;
-   padding-top: 20px;
+    color: white;
+   
+
 }
 .container{
 display: flex;
@@ -16,17 +17,19 @@ flex-wrap: wrap;
 
 
 
+
 }
 footer img{
-    width:2rem;
+    width:3.5rem;
 
-    position: absolute;
-   top: 22px;
-   left: 30px;
+    
+   position: relative;
+   top: 45px;
+   left: 20px;
 }
 h4{
     font-weight: 600;
-    font-size: 27px;
+    font-size: 25px;
 
     font-family: inter;
     line-height: 32.68px;
@@ -35,7 +38,7 @@ h4{
 }
 .column ul li{
    font-weight: 600; 
-   font-size:20px ;
+   font-size:18px ;
    font-family: inter;
    line-height:30.26px ;
    max-width:500px;
@@ -53,6 +56,9 @@ h4{
     }
     h4{
         margin-top: 20px;
+    }
+    .container{
+        padding-right: 0;
     }
    
     
