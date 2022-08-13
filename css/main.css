@@ -46,8 +46,11 @@ main button{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 700;
-    padding: 23px 138px 23px 138px;
+    padding: 3vh 8vh 3vh 8vh;
     letter-spacing: 5%;
+    position: relative;
+    margin-left: 23%;
+    
 }
 .form{
     border: 1px solid black;
@@ -55,6 +58,7 @@ main button{
     width: 497px;
     height: 584px;
     padding: 50px;
+    position:relative ;
     
     background-color: white;
     
@@ -98,8 +102,13 @@ main button{
         display: flex;
         flex-direction: row;
         justify-content: center;
+    
     }
     .form{
         margin: 20px;
     }
+    main button{
+
+    }
 }
+
