@@ -4,7 +4,6 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 50px ;
     padding-bottom: 50px ;
-    max-height:max-content;
     background-color: rgba(26, 20, 18, 1);
 }
 .placeholder{
@@ -16,6 +15,9 @@ main{
     line-height: 14.32px;
     letter-spacing: 5%;
     font-size: 12px;
+}
+.jado{
+visibility: hidden; 
 }
 p{
     font-size: 10px;
@@ -61,7 +63,7 @@ main button:hover{
     width: 497px;
     height: 584px;
     padding: 50px;
-    position:relative ;
+  
     
     background-color: white;
     
@@ -69,6 +71,7 @@ main button:hover{
 .form-container{
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: right;
     background-color: rgba(26, 20, 18, 1);
 
@@ -79,6 +82,7 @@ main button:hover{
    justify-content: center;
    flex-grow: 1;
    max-width: 732px;
+
    
 }
 /* for mobile   */
@@ -90,11 +94,17 @@ main button:hover{
         background-color: rgba(26, 20, 18, 1); 
         border: none;
         position: relative;
-        
+       
 
     }
+    .disappear{
+        display: none;
+    }
     main{
-        height: 550px
+        height: 430px
+    }
+    .jado{
+        visibility: visible;
     }
 
     
@@ -121,9 +131,9 @@ main button:hover{
         top: 30px;
         padding: 2vh 10vh 2vh 10vh;
     }
-    .form{
-        padding: 30px;
-        
+    .form-container{
+        display: none;
     }
+
     
 

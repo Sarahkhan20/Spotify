@@ -10,6 +10,8 @@ header{
     background-color: black;
 
 }
+
+
 header img{
     width: 3.5rem;
     position: absolute;
@@ -27,10 +29,11 @@ a{
 }
 .navbar{
     
-    height: 11vh;
+    height: 70px;
     display: flex;
     justify-content:space-between;
     align-items: center;
+    overflow: hidden;
 
 }
 .nav-link:hover{
@@ -53,9 +56,13 @@ a{
     height: 3px;
     background-color: white;
     margin: 5px;
+   
 }
 .hamburger{
     display: none;
+     margin-right: 20px;
+
+  
 }
 @media(max-width:700px) {
     body{
@@ -93,4 +100,15 @@ a{
         visibility: visible;
     
     }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-4px, 6px);
+        transform: rotate(-45deg) translate(-4px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
     

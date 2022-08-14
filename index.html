@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Responsive Title bar
+    <title>Spotify Music
 
     </title>
     <link rel="stylesheet" href="css/header.css">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="https://www.freepnglogos.com/pics/spotify-logo-png" type="image/x-icon">
-   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     
@@ -33,12 +33,16 @@
                 <a href="https://www.spotify.com/us/download/windows/" class="nav-link">Download</a>
             </li>
         </ul>
-        <div class="hamburger">
+        <div class="hamburger" onclick="myFunction(this)">
             <div class="bar1"
             ></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
+        <script>function myFunction(x) {
+            x.classList.toggle("change");
+        }
+        </script>
         </div>
     </nav>
 </header>
@@ -58,8 +62,8 @@
         <p>By clicking on sign-up, you agree to Spotify's <a href="https://www.spotify.com/us/legal/end-user-agreement/">Terms and Conditions of Use.</a></p>
         <p>To learn more about how Spotify collects, uses, shares and  protects your &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personal data,please see <a href="#">Spotify's Privacy Policy</a></p>
     </div>
-        <button value="Click" onclick="alert('Beep..! Beep..! Imma Static');
-        "/>Sign Up</button>
+        <button value="Click" onclick="alert('Go to spotify.com to actually sigup lol');
+        ">Sign Up</button>
        
        
         <p class="disappear" style="text-align: center; margin-top: 30px;">
@@ -71,6 +75,8 @@
         </p>
         </div>
     </div>
+    <button class="jado" value="Click" onclick="alert('Go to spotify.com to actually sigup lol');
+    " >Sign Up</button>
 </main>
 <footer>
     <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2017/240/iconmonstr-spotify-2.png" alt="spotify icon">
