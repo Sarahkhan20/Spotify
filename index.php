@@ -58,27 +58,25 @@
     <img src="images/spotify.png" class="spotifybg">
     <div class="form-container">
         <div class="form">
-        <form action="">
+        <form action="connect.php" method="post">
             <div class="disappear">
             <label>What should we call you?</label>
-            <input type="text" placeholder="Enter a profile name" class="placeholder" size="55" style="margin: 8px 0 18px 0;">
+            <input type="text" placeholder="Enter a profile name" name="name" class="placeholder" size="55" style="margin: 8px 0 18px 0;">
             
             <label>Email address</label>
-            <input type="email" placeholder="Enter your email address" class="placeholder" size="55" style="margin: 8px 0 20px 0;">
+            <input type="email" name="email" placeholder="Enter your email address" class="placeholder" size="55" style="margin: 8px 0 20px 0;">
             
             <label>Create password</label>
-            <input type="password" placeholder="Create a password" class="placeholder" size="55" style="margin: 8px 0 30px 0;">
+            <input type="password" name="password"placeholder="Create a password" class="placeholder" size="55" style="margin: 8px 0 30px 0;">
+             <input type="submit" class="btn btn-primary" />
         </form>
         <p>By clicking on sign-up, you agree to Spotify's <a href="https://www.spotify.com/us/legal/end-user-agreement/">Terms and Conditions of Use.</a></p>
         <p>&nbsp;&nbsp;&nbsp;To learn more about how Spotify collects, uses, shares and  protects  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;your personal data, please see <a href="#">Spotify's Privacy Policy</a></p>
     </div>
-        <button value="Click" onclick="alert('Go to spotify.com to actually sigup lol');
-        ">Sign Up</button>
-       
-       
+        
         <p class="disappear" style="text-align: center; margin-top: 22px;">
             <span class="login">Have an account? 
-                <a href="#">Log in.
+                <a href="login.php">Log in.
 
                 </a>
             </span>
